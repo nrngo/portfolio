@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>game</title>
+  </head>
+  <body>
+    <h2>санасан тоо хэд вэ?</h2>
+    <p>1-100 хооронд буй тоог таагаарай.</p>
+    <input type="text" id="taasantoo" class="style" />
+    <button onclick="utgaAvahFunkts()">utga avah</button>
+    <p id="utga">hint:</p>
+
+    <script>
+      const random = Math.floor(Math.random() * 100) + 1;
+
+      function utgaAvahFunkts() {
+        const taasanToo = document.getElementById("taasantoo").value;
+        const utga = document.getElementById("utga");
+
+        if (taasanToo == random) {
+          utga.textContent = "Баяр хүргэе";
+        } else if (taasanToo > random) utga.textContent = "арай их байна";
+        else {
+          utga.textContent = "бага байна";
+        }
+      }
+    </script>
+  </body>
+</html>

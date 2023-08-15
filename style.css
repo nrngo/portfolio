@@ -1,0 +1,106 @@
+    .navbar {
+      background-color: transparent;
+      color: black;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .bar {
+      background-color: #333;
+      color: #333;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .menu {
+      list-style: none;
+      color: white;
+      justify-content: space-around;
+      align-items: center;
+      display: flex;
+      flex: 3 ;
+    } 
+    .menu-item {
+      color: white;
+      text-decoration: none;
+    }
+    .zai-avah {
+      margin-right: 15px;
+    }
+    .nav {
+      display: flex;
+      list-style: none;
+      margin-right: 15px;
+    }
+    .item {
+      display: flex;
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      flex: 1;
+    }
+    
+    .SingleImageBgpbEditfade-in {
+      flex: 7;
+      background-image: fixed;
+      background-size: contain;
+      margin-top: 0em;
+      margin-bottom: 0em;
+      padding: 0em 5vw 0em 15.5vw;
+      justify-content: center;
+      align-items: center;
+      height: 0%;
+      width: 0%;
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      left: 0;
+    }
+    .contact {
+      text-decoration: none;
+      color: black;
+    }
+    .me {
+      flex:1;
+      width: 150px;
+
+    }
+    .about {
+      background-image: url(lesson8/download.jfif);
+      justify-content: center;
+      align-items: center;
+      min-height: 0vh;
+      width: 100%;
+       text-align: justify;
+      font-size: 1.2em;
+      align-self: center;
+      padding: 0vh 2vw;
+      justify-content: center;
+      min-height: 0vh;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      flex-direction: column;
+      position: relative;
+      line-height: 1.2em;
+      flex: 2;
+    }
+    
+    .personal {
+      display: flex;
+      flex: 1;
+      color: black;
+    }
+    .architect {
+      height: 640px;
+      width: 1700px;
+    }
+    .game {
+      text-decoration: none;
+      color: navy;
+    }
+
+
+    .main-container{
+      display: flex;
+      justify-content: center;
+    }
